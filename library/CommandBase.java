@@ -23,7 +23,7 @@ public class CommandBase {
     public void end() {
     }
 
-    private void addRequirement(SubsystemBase subsystem) {
+    public void addRequirement(SubsystemBase subsystem) {
         requiredSubsystems.add(subsystem);
     }
 
